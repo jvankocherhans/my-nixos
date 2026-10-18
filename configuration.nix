@@ -20,7 +20,11 @@
     autoRepeatDelay = 200;
     autoRepeatInterval = 35;
     windowManager.qtile.enable = true;
+    xkb.layout = "us";
+    xkb.variant = "intl";
   };
+  console.useXkbConfig = true;
+
   # basically just the login screen
   services.displayManager.ly.enable = true;
   
